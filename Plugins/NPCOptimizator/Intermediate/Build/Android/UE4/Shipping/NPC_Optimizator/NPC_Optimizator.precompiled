@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.NPC_Optimizator.cppa7.o",
+		"Module.NPC_Optimizator.cppa8.o",
+		"Module.NPC_Optimizator.gen.cppa7.o",
+		"Module.NPC_Optimizator.gen.cppa8.o"
+	]
+}
