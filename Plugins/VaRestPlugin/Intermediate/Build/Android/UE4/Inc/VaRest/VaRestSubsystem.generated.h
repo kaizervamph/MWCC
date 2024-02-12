@@ -18,14 +18,14 @@ enum class EVaRestRequestContentType : uint8;
 #endif
 #define VAREST_VaRestSubsystem_generated_h
 
-#define HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_18_GENERATED_BODY \
+#define MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_18_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FVaRestCallResponse_Statics; \
 	VAREST_API static class UScriptStruct* StaticStruct();
 
 
 template<> VAREST_API UScriptStruct* StaticStruct<struct FVaRestCallResponse>();
 
-#define HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_13_DELEGATE \
+#define MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_13_DELEGATE \
 struct _Script_VaRest_eventVaRestCallDelegate_Parms \
 { \
 	UVaRestRequestJSON* Request; \
@@ -38,8 +38,8 @@ static inline void FVaRestCallDelegate_DelegateWrapper(const FScriptDelegate& Va
 }
 
 
-#define HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_38_SPARSE_DATA
-#define HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_38_RPC_WRAPPERS \
+#define MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_38_SPARSE_DATA
+#define MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_38_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execLoadJsonFromFile); \
 	DECLARE_FUNCTION(execDecodeJsonObject); \
@@ -56,7 +56,7 @@ static inline void FVaRestCallDelegate_DelegateWrapper(const FScriptDelegate& Va
 	DECLARE_FUNCTION(execCallURL);
 
 
-#define HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
+#define MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execLoadJsonFromFile); \
 	DECLARE_FUNCTION(execDecodeJsonObject); \
@@ -73,7 +73,7 @@ static inline void FVaRestCallDelegate_DelegateWrapper(const FScriptDelegate& Va
 	DECLARE_FUNCTION(execCallURL);
 
 
-#define HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_38_INCLASS_NO_PURE_DECLS \
+#define MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_38_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUVaRestSubsystem(); \
 	friend struct Z_Construct_UClass_UVaRestSubsystem_Statics; \
@@ -82,7 +82,7 @@ public: \
 	DECLARE_SERIALIZER(UVaRestSubsystem)
 
 
-#define HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_38_INCLASS \
+#define MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_38_INCLASS \
 private: \
 	static void StaticRegisterNativesUVaRestSubsystem(); \
 	friend struct Z_Construct_UClass_UVaRestSubsystem_Statics; \
@@ -91,7 +91,7 @@ public: \
 	DECLARE_SERIALIZER(UVaRestSubsystem)
 
 
-#define HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_38_STANDARD_CONSTRUCTORS \
+#define MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_38_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UVaRestSubsystem(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVaRestSubsystem) \
@@ -104,7 +104,7 @@ private: \
 public:
 
 
-#define HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_38_ENHANCED_CONSTRUCTORS \
+#define MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_38_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UVaRestSubsystem(UVaRestSubsystem&&); \
@@ -115,31 +115,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVaRestSubsystem); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVaRestSubsystem)
 
 
-#define HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_38_PRIVATE_PROPERTY_OFFSET \
+#define MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_38_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__RequestMap() { return STRUCT_OFFSET(UVaRestSubsystem, RequestMap); }
 
 
-#define HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_35_PROLOG
-#define HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_38_GENERATED_BODY_LEGACY \
+#define MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_35_PROLOG
+#define MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_38_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_38_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_38_SPARSE_DATA \
-	HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_38_RPC_WRAPPERS \
-	HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_38_INCLASS \
-	HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_38_STANDARD_CONSTRUCTORS \
+	MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_38_PRIVATE_PROPERTY_OFFSET \
+	MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_38_SPARSE_DATA \
+	MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_38_RPC_WRAPPERS \
+	MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_38_INCLASS \
+	MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_38_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_38_GENERATED_BODY \
+#define MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_38_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_38_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_38_SPARSE_DATA \
-	HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
-	HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_38_INCLASS_NO_PURE_DECLS \
-	HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h_38_ENHANCED_CONSTRUCTORS \
+	MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_38_PRIVATE_PROPERTY_OFFSET \
+	MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_38_SPARSE_DATA \
+	MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
+	MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_38_INCLASS_NO_PURE_DECLS \
+	MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h_38_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -147,7 +147,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> VAREST_API UClass* StaticClass<class UVaRestSubsystem>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestSubsystem_h
+#define CURRENT_FILE_ID MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestSubsystem_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define VAREST_VaRestTypes_generated_h
 
-#define HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestTypes_h_149_GENERATED_BODY \
+#define MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestTypes_h_149_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FVaRestURL_Statics; \
 	static class UScriptStruct* StaticStruct();
 
@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> VAREST_API UScriptStruct* StaticStruct<struct FVaRestURL>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_VaRest_Source_VaRest_Public_VaRestTypes_h
+#define CURRENT_FILE_ID MWCC_Plugins_VaRestPlugin_Source_VaRest_Public_VaRestTypes_h
 
 
 #define FOREACH_ENUM_EVARESTHTTPSTATUSCODE(op) \
