@@ -1,8 +1,0 @@
-{
-	"BuildId": "14830424",
-	"Modules": 
-	{
-		"VaRest": "UE4Editor-VaRest.dylib",
-		"VaRestEditor": "UE4Editor-VaRestEditor.dylib"
-	}
-}
